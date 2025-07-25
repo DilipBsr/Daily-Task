@@ -45,7 +45,7 @@ function Update({task,id,triggerRefresh,triggerUpdate}) {
 
   return (
     <>
-      <form action="submit" onSubmit={handleSubmit} className='task-form flex flex-row gap-5 p-4 justify-center items-center'>
+      <form action="submit" onSubmit={handleSubmit} className='task-form flex flex-row gap-5 p-4 justify-center items-center flex-wrap'>
         <input type="text"
               name="taskName"
               value={data.taskName}
